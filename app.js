@@ -32,7 +32,7 @@ app.use((req, res, next) => {
 });
 
 app.use((req, res) => {
-    const errorFilePath = path.join(__dirname, 'site', 'errors', '404', '404.html');
+    const errorFilePath = path.join(__dirname, 'site', 'errors', '404', 'index', '404.html');
 
     if (fs.existsSync(errorFilePath)) {
         res.status(404).sendFile(errorFilePath);
