@@ -1,11 +1,11 @@
 @font-face {
     font-family: Body;
-    src: url(/site/locales/fonts/Involve-Medium.ttf);
+    src: url(../../../locales/fonts/Involve-Medium.ttf);
 }
 
 @font-face {
     font-family: Navbar;
-    src: url(/site/locales/fonts/FeatureMono-Medium.ttf);
+    src: url(../../../locales/fonts/FeatureMono-Medium.ttf);
 }
 
 * {
